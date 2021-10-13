@@ -23,7 +23,7 @@ export default class Math extends Character {
     } else {
       finalAttack = Math.round(this._attack * (1.1 - this.distance / 10));
     }
-    if (finalAttack < 0) {
+    if (finalAttack <= 0) {
       return 0;
     }
     return finalAttack;
