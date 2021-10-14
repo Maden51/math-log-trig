@@ -2,7 +2,7 @@
 
 import Character from './character';
 
-export default class Math extends Character {
+export default class MathChar extends Character {
   set stoned(value) {
     this._stoned = value;
   }
